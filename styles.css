@@ -23,3 +23,8 @@ body {
     display: flex;
     justify-content: center;
 }
+.pokemon {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}

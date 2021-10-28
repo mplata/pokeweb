@@ -1,0 +1,25 @@
+body {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header img {
+    width: 256px;
+}
+.content {
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 2em;
+    display: flex;
+    justify-content: center;
+}

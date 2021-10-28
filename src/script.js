@@ -16,6 +16,11 @@ function createPokemonBlock(pokemonData) {
     const weightDiv = document.createElement('div');
     weightDiv.textContent = `Altura: ${pokemonData.weight}`;
 
+    const imgDiv = document.createElement('img');
+    imgDiv.classList.add('pokephoto');
+    imgDiv.src = pokemonData['sprites']['front_default'];
+
+    pokemonDiv.appendChild(imgDiv);
     pokemonDiv.appendChild(nameDiv);
     pokemonDiv.appendChild(heightDiv);
     pokemonDiv.appendChild(weightDiv);

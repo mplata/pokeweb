@@ -11,10 +11,10 @@ function createPokemonBlock(pokemonData) {
     nameDiv.textContent = `Nombre: ${pokemonData.name}`;
 
     const heightDiv = document.createElement('div');
-    heightDiv.textContent = `Altura: ${pokemonData.height}`;
+    heightDiv.textContent = `Peso: ${pokemonData.height}`;
 
     const weightDiv = document.createElement('div');
-    weightDiv.textContent = `Peso: ${pokemonData.weight}`;
+    weightDiv.textContent = `Altura: ${pokemonData.weight}`;
 
     pokemonDiv.appendChild(nameDiv);
     pokemonDiv.appendChild(heightDiv);
